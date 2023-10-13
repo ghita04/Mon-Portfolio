@@ -4,7 +4,8 @@ body {
 }
 
 nav {
-  background-color: #230041;
+  background-color: #785e8f;
+  height: 8vh;
 }
 nav .navbar-toggler {
   border: none;
@@ -13,10 +14,14 @@ nav .logo {
   color: white;
   position: absolute;
   left: 15px;
-  top: 0.1rem;
+  top: 0;
+  height: 8vh;
 }
 nav a {
   color: white;
+}
+nav :hover {
+  color: red;
 }
 
 @media screen and (min-width: 992px) {
@@ -54,4 +59,10 @@ nav a {
 #section-hero h3 {
   margin-top: 23px;
   color: rgb(255, 255, 255);
+}
+@media screen and (min-width: 992px) {
+  #section-hero .navbar-collapse {
+    display: flex;
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=style.css.map */
