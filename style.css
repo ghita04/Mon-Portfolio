@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   margin: 0;
+  background-color: black;
 }
 
 nav {
@@ -43,6 +44,14 @@ nav :hover {
   height: 90vh;
   margin-top: -48px;
 }
+#section-hero h1 {
+  color: white;
+  text-transform: uppercase;
+}
+#section-hero h4 {
+  margin-top: 23px;
+  color: rgb(255, 255, 255);
+}
 #section-hero .presentation {
   position: absolute;
   top: 50%;
@@ -50,21 +59,51 @@ nav :hover {
   transform: translate(-50%, -50%);
   background-color: rgba(75, 58, 121, 0.4);
   height: 25vh;
-  width: 43vw;
+  width: 70vw;
   text-align: center;
   padding: 60px 60px;
 }
-#section-hero h1 {
-  color: white;
-  text-transform: uppercase;
+@media screen and (max-width: 1195px) {
+  #section-hero .presentation {
+    height: 30vh;
+    width: 70vw;
+  }
 }
-#section-hero h3 {
-  margin-top: 23px;
-  color: rgb(255, 255, 255);
+@media screen and (max-width: 610px) {
+  #section-hero .presentation {
+    height: 35vh;
+    width: 70vw;
+  }
+  #section-hero h1 {
+    font-size: 30px;
+  }
+  #section-hero h4 {
+    font-size: 30px;
+  }
 }
-@media screen and (min-width: 992px) {
-  #section-hero .navbar-collapse {
-    display: flex;
-    justify-content: space-around;
+@media screen and (max-width: 560px) {
+  #section-hero .presentation {
+    height: 40vh;
+    width: 70vw;
+  }
+  #section-hero h1 {
+    font-size: 30px;
+  }
+  #section-hero h4 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 460px) {
+  #section-hero .presentation {
+    height: 50vh;
+    width: 70vw;
+    padding-top: -20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #section-hero .presentation {
+    height: 60vh;
+    width: 70vw;
+    padding-top: -20px;
   }
 }/*# sourceMappingURL=style.css.map */

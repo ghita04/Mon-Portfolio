@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
     margin: 0;
+    background-color: black;
 }
 
 nav {
@@ -51,6 +52,16 @@ nav {
       margin-top: -48px;
     }
 
+  h1  {
+      color: white;
+      text-transform: uppercase;
+  }
+
+  h4 {
+      margin-top: 23px;
+      color: rgb(255, 255, 255);
+      
+  }
     .presentation {
         position: absolute;
         top: 50%;
@@ -58,27 +69,61 @@ nav {
         transform: translate(-50%, -50%);
         background-color: rgba($color: #4b3a79, $alpha: 0.4);
         height: 25vh;
-        width: 43vw;
+        width: 70vw;
         text-align: center;
         padding: 60px 60px;
+        
        
     }
 
-    h1  {
-        color: white;
-        text-transform: uppercase;
+    @media screen and (max-width: 1195px) {
+      .presentation {
+          height: 30vh;
+          width: 70vw;
+      }
     }
-
-    h3 {
-        margin-top: 23px;
-        color: rgb(255, 255, 255);
-        
-    }
-
-    @media screen and (min-width: 992px) {
-        .navbar-collapse {
-          display: flex;
-          justify-content: space-around;
+      @media screen and (max-width: 610px) {
+        .presentation {
+            height: 35vh;
+            width: 70vw;
         }
+          h1{
+            font-size: 30px;
+          }
+        h4{
+          font-size: 30px;
+        }
+      }
+        @media screen and (max-width: 560px) {
+          .presentation {
+              height: 40vh;
+              width: 70vw;
+          }
+
+          h1 {
+            font-size: 30px;
+          }
+
+          h4 {
+            font-size: 30px;
+          }
+        }
+   
+          @media screen and (max-width: 460px) {
+            .presentation {
+                height: 50vh;
+                width: 70vw;
+                padding-top: -20px;
+            }
   }
+
+  @media screen and (max-width: 375px) {
+    .presentation {
+        height: 60vh;
+        width: 70vw;
+        padding-top: -20px;
+    }
+
+
+}
 }
