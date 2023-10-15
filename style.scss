@@ -80,75 +80,14 @@ nav {
   }
 }
 
-/** .presentation {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba($color: #4b3a79, $alpha: 0.4);
-    height: 25vh;
-    width: 70vw;
-    text-align: center;
-    padding: 60px 60px;
-  } 
-  
-
-  @media screen and (max-width: 1195px) {
-    .presentation {
-      height: 30vh;
-      width: 70vw;
-    }
-  }
-  @media screen and (max-width: 610px) {
-    .presentation {
-      height: 35vh;
-      width: 70vw;
-    }
-    h1 {
-      font-size: 30px;
-    }
-    h4 {
-      font-size: 30px;
-    }
-  }
-  @media screen and (max-width: 560px) {
-    .presentation {
-      height: 40vh;
-      width: 70vw;
-    }
-
-    h1 {
-      font-size: 30px;
-      padding-top: -20px;
-    }
-
-    h4 {
-      font-size: 30px;
-    }
-  }
-
-  @media screen and (max-width: 460px) {
-    .presentation {
-      height: 50vh;
-      width: 70vw;
-    }
-  }
-
-  @media screen and (max-width: 375px) {
-    .presentation {
-      height: 60vh;
-      width: 70vw;
-      padding-top: -20px;
-    }
-  }
-  **/
-
 #section-propos {
   .container-fluid {
     padding: 0;
 
-    .title {
-      background-color: rgba(185, 152, 220, 0.7);
+    .bande {
+      background-image: url("/medias/hero.PNG");
+      background-repeat: no-repeat;
+      background-size: cover;
       height: 25vh;
 
       h2 {
@@ -185,5 +124,51 @@ nav {
     justify-content: center;
     align-items: center;
     color: white;
+  }
+}
+
+#section-projet {
+  .container-fluid {
+    padding: 0;
+
+    .bande {
+      background-image: url("/medias/hero.PNG");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 25vh;
+
+      h2 {
+        font-size: 3rem;
+        color: white;
+      }
+    }
+
+    .profil h2 {
+      color: white;
+    }
+
+    .profil p {
+      color: white;
+    }
+    .competences h2 {
+      color: white;
+    }
+
+    .competences li {
+      color: white;
+    }
+
+    .categrories {
+      background-color: rgba(185, 152, 220, 0.7);
+      height: 10vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    h2 {
+      font-size: 25px;
+      color: white;
+    }
   }
 }
