@@ -115,6 +115,8 @@ nav {
 
 #section-footer {
   background-color: rgba(185, 152, 220, 0.7);
+  margin: 0;
+  height: 20vh;
 
   h3 {
     text-align: center;
@@ -169,6 +171,24 @@ nav {
     h2 {
       font-size: 25px;
       color: white;
+    }
+  }
+}
+
+#section-contact {
+  .container-fluid {
+    padding: 0;
+
+    .bande {
+      background-image: url("/medias/hero.PNG");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 25vh;
+
+      h2 {
+        font-size: 3rem;
+        color: white;
+      }
     }
   }
 }
