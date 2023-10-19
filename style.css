@@ -53,10 +53,10 @@ nav .dropdown-menu.dropdown-menu a {
   align-items: center;
 }
 .hero .card {
-  width: 400px;
-  height: 400px;
+  width: 700px;
+  height: 300px;
   background-color: rgba(185, 152, 220, 0.7);
-  border-radius: 50%;
+  border-radius: 15px 15px 15px 15px;
 }
 .hero .card.card:hover {
   transform: scale(1.3);
@@ -123,27 +123,25 @@ nav .dropdown-menu.dropdown-menu a {
   font-size: 3rem;
   color: white;
 }
-#section-projet .container-fluid .profil h2 {
-  color: white;
-}
-#section-projet .container-fluid .profil p {
-  color: white;
-}
-#section-projet .container-fluid .competences h2 {
-  color: white;
-}
-#section-projet .container-fluid .competences li {
-  color: white;
-}
 #section-projet .container-fluid .categrories {
   background-color: rgba(185, 152, 220, 0.7);
-  height: 10vh;
+  height: 6vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 #section-projet .container-fluid h2 {
   font-size: 25px;
+  color: white;
+}
+#section-projet h1 {
+  color: white;
+  text-align: center;
+}
+#section-projet h2 {
+  text-align: center;
+}
+#section-projet h3 {
   color: white;
 }
 
