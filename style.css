@@ -56,7 +56,6 @@ nav .dropdown-menu.dropdown-menu a {
   width: 700px;
   height: 300px;
   background-color: rgba(185, 152, 220, 0.7);
-  border-radius: 15px 15px 15px 15px;
 }
 .hero .card.card:hover {
   transform: scale(1.3);
