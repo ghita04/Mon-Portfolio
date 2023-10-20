@@ -18,13 +18,31 @@ nav {
   .logo {
     position: absolute;
     left: 15px;
-    top: -2px;
+    top: -8px;
     height: 8vh;
-    min-width: 8vw;
+    min-width: 5vw;
   }
 
-  .nav-item li {
-    color: white;
+  li {
+    a {
+      color: white;
+  
+      &::after {
+        content: "";
+        display: block;
+        margin: auto;
+        height: 3px;
+        width: 0;
+        top: 5px;
+        background: transparent;
+        transition: all 0.3s;  
+      }
+  
+      &:hover::after, &.active-nav::after {
+        width: 100%;
+        background: #a92ac9;
+      }
+    }
   }
 
   .dropdown-menu {
@@ -60,9 +78,10 @@ nav {
   align-items: center;
 
   .card {
-    width: 700px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     background-color: rgba(185, 152, 220, 0.7);
+    border-radius: 50%;
 
   
 
@@ -175,6 +194,24 @@ nav {
    
     color: white;
   }
+}
+
+#section-design {
+  margin-top: 60px;
+
+  .site01 {
+    width: 40vw;
+
+  }
+
+  .titre {
+    margin-bottom: 60px;
+  }
+}
+
+
+#section-montage {
+  margin-top: 60px;
 }
 
 #section-contact {
