@@ -162,16 +162,11 @@ nav .dropdown-menu.dropdown-menu a {
 #section-design {
   margin-top: 60px;
 }
-#section-design .site01 {
-  width: 60vw;
-  border-radius: 15px 15px 15px 15px;
-}
 #section-design .titre {
   margin-bottom: 60px;
 }
-
-#section-montage {
-  margin-top: 60px;
+#section-design .card-body {
+  color: white;
 }
 
 #section-contact .container-fluid {
