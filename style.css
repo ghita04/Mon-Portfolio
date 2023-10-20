@@ -163,7 +163,8 @@ nav .dropdown-menu.dropdown-menu a {
   margin-top: 60px;
 }
 #section-design .site01 {
-  width: 40vw;
+  width: 60vw;
+  border-radius: 15px 15px 15px 15px;
 }
 #section-design .titre {
   margin-bottom: 60px;
