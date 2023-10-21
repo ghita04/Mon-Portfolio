@@ -17,12 +17,26 @@ nav .navbar-toggler {
 nav .logo {
   position: absolute;
   left: 15px;
-  top: -2px;
+  top: -8px;
   height: 8vh;
-  min-width: 8vw;
+  min-width: 5vw;
 }
-nav .nav-item li {
+nav li a {
   color: white;
+}
+nav li a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+}
+nav li a:hover::after, nav li a.active-nav::after {
+  width: 100%;
+  background: #a92ac9;
 }
 nav .dropdown-menu {
   background-color: #000000;
@@ -53,8 +67,8 @@ nav .dropdown-menu.dropdown-menu a {
   align-items: center;
 }
 .hero .card {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   background-color: rgba(185, 152, 220, 0.7);
   border-radius: 50%;
 }
@@ -123,27 +137,35 @@ nav .dropdown-menu.dropdown-menu a {
   font-size: 3rem;
   color: white;
 }
-#section-projet .container-fluid .profil h2 {
-  color: white;
-}
-#section-projet .container-fluid .profil p {
-  color: white;
-}
-#section-projet .container-fluid .competences h2 {
-  color: white;
-}
-#section-projet .container-fluid .competences li {
-  color: white;
-}
 #section-projet .container-fluid .categrories {
   background-color: rgba(185, 152, 220, 0.7);
-  height: 10vh;
+  height: 6vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 #section-projet .container-fluid h2 {
   font-size: 25px;
+  color: white;
+}
+#section-projet h1 {
+  color: white;
+  text-align: center;
+}
+#section-projet h2 {
+  text-align: center;
+}
+#section-projet h3 {
+  color: white;
+}
+
+#section-design {
+  margin-top: 60px;
+}
+#section-design .titre {
+  margin-bottom: 60px;
+}
+#section-design .card-body {
   color: white;
 }
 
