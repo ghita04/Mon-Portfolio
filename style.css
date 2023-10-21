@@ -145,7 +145,7 @@ nav .dropdown-menu.dropdown-menu a {
   align-items: center;
 }
 #section-projet .container-fluid h2 {
-  font-size: 25px;
+  font-size: 15px;
   color: white;
 }
 #section-projet h1 {
@@ -159,14 +159,26 @@ nav .dropdown-menu.dropdown-menu a {
   color: white;
 }
 
-#section-design {
-  margin-top: 60px;
+#section-design-web {
+  margin-top: 10px;
 }
-#section-design .titre {
+#section-design-web .titre {
   margin-bottom: 60px;
 }
-#section-design .card-body {
+#section-design-web .card-body {
   color: white;
+}
+
+#section-design-graphique {
+  margin-top: -60px;
+}
+#section-design-graphique .titre {
+  margin-bottom: 60px;
+}
+#section-design-graphique .card {
+  border: none;
+  margin: 10px;
+  border-radius: 20px 20px 20px 20px;
 }
 
 #section-contact .container-fluid {
