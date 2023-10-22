@@ -18,7 +18,7 @@ nav {
   .logo {
     position: absolute;
     left: 15px;
-    top: -8px;
+    top: -5px;
     height: 8vh;
     min-width: 5vw;
   }
@@ -84,10 +84,6 @@ nav {
     background-color: rgba(185, 152, 220, 0.7);
     border-radius: 50%;
 
-    &.card:hover {
-      transform: scale(1.3);
-    }
-
     h4 {
       font-size: 45px;
       color: white;
@@ -137,7 +133,7 @@ nav {
   margin: 0;
   height: 20vh;
 
-  h3 {
+  a {
     text-align: center;
     font-size: 15px;
     height: 20vh;
@@ -145,6 +141,23 @@ nav {
     justify-content: center;
     align-items: center;
     color: white;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 5px;
+    background: transparent;
+    transition: all 0.3s;
+  }
+
+  &:hover::after,
+  &.active-nav::after {
+    width: 100%;
+    background: #a92ac9;
   }
 }
 
@@ -166,33 +179,39 @@ nav {
 
     .categrories {
       background-color: rgba(185, 152, 220, 0.7);
-      height: 6vh;
+      height: 8vh;
       display: flex;
       justify-content: space-around;
       align-items: center;
     }
 
-    h2 {
-      font-size: 15px;
+    .categrories a {
+      text-align: center;
+      font-size: 17px;
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       color: white;
+      text-decoration: none;
     }
-  }
 
-  h1 {
-    color: white;
-    text-align: center;
-  }
-
-  h2 {
-    text-align: center;
-  }
-
-  h3 {
-    color: white;
+    a:hover {
+      text-decoration: underline #a92ac9;
+    }
   }
 }
 
-#section-design-web {
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+#design-web {
   margin-top: 10px;
 
   .titre {
@@ -202,9 +221,15 @@ nav {
   .card-body {
     color: white;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
 }
 
-#section-design-graphique {
+#design-graphique {
   margin-top: -60px;
 
   .titre {
