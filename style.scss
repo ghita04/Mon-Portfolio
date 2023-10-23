@@ -230,16 +230,43 @@ h3 {
 }
 
 #design-graphique {
-  margin-top: -60px;
-
-  .titre {
-    margin-bottom: 60px;
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
+  .swiper-slide .card {
+    border: none;
+    margin-bottom: 45px;
+    border-radius: 20px 20px 20px 20px;
+    width: 50vw;
+  }
+
+  .swiper-button-next {
+    color: #a92ac9;
+    margin-right: 25px;
+  }
+
+  .swiper-button-prev {
+    color: #a92ac9;
+    margin-left: 25px;
+  }
+}
+
+#montage {
   .card {
     border: none;
-    margin: 10px;
-    border-radius: 20px 20px 20px 20px;
+    height: 10vh;
+  }
+
+  .swiper-button-next {
+    color: #a92ac9;
+    margin-right: 25px;
+  }
+
+  .swiper-button-prev {
+    color: #a92ac9;
+    margin-left: 25px;
   }
 }
 
