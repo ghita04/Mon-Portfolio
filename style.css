@@ -225,6 +225,27 @@ h3 {
   color: #a92ac9;
   margin-left: 25px;
 }
+#montage h3 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 25px;
+}
+#montage h4 {
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+#montage p {
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#montage li {
+  color: white;
+  padding-left: 30px;
+}
 
 #section-contact .container-fluid {
   padding: 0;
