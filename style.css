@@ -106,6 +106,12 @@ nav .dropdown-menu.dropdown-menu a {
 #section-propos .container-fluid .competences li {
   color: white;
 }
+#section-propos .container-fluid p {
+  font-family: "Quicksand", sans-serif;
+}
+#section-propos .container-fluid ul {
+  font-family: "Quicksand", sans-serif;
+}
 
 #section-footer {
   background-color: rgba(185, 152, 220, 0.7);
@@ -171,6 +177,10 @@ nav .dropdown-menu.dropdown-menu a {
           text-decoration: underline #a92ac9;
 }
 
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
 h1 {
   text-align: center;
   color: white;
@@ -180,12 +190,6 @@ h3 {
   color: white;
 }
 
-#design-web {
-  margin-top: 10px;
-}
-#design-web .titre {
-  margin-bottom: 60px;
-}
 #design-web .card-body {
   color: white;
 }
@@ -194,25 +198,25 @@ h3 {
   text-decoration: none;
   font-weight: bold;
 }
+#design-web ul {
+  font-family: "Quicksand", sans-serif;
+}
 
 #design-graphique img {
   width: 100%;
   height: 100%;
 }
 #design-graphique h1 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 #design-graphique .card {
   background-color: rgb(32, 5, 29);
 }
 #design-graphique .swiper-button-next {
   color: #a92ac9;
-  right: 0;
 }
 #design-graphique .swiper-button-prev {
   color: #a92ac9;
-  left: 0;
 }
 
 #montage span {
@@ -228,16 +232,25 @@ h3 {
   width: 30px;
   background-color: #a92ac9;
 }
+#montage h1 {
+  margin-top: 60px;
+}
+#montage h3 {
+  margin-bottom: 45px;
+}
 #montage h4 {
   text-align: left;
   color: white;
+  margin-top: 30px;
   margin-bottom: 20px;
-  padding-left: 30px;
+  padding-left: 45px;
 }
 #montage p {
   color: white;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 1.3em;
+  padding-bottom: 20px;
 }
 #montage li {
   color: white;
@@ -246,6 +259,7 @@ h3 {
 #montage video {
   width: 100%;
   height: 100%;
+  margin-bottom: 45px;
 }
 
 #section-contact .container-fluid {
