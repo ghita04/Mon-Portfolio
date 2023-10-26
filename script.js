@@ -23,3 +23,18 @@ const swiperMontage = new Swiper(".swipermontage", {
     clickable: true,
   },
 });
+
+const swiperProcessus = new Swiper(".processus", {
+  direction: "horizontal",
+  slidesPerView: 1,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+
+
+
+
+});
