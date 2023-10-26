@@ -274,7 +274,7 @@ h3 {
   padding: 0;
 }
 #section-contact .container-fluid .bande {
-  background-image: url("/medias/hero.PNG");
+  background-image: url("Mon-Portfolio/medias/hero.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
