@@ -57,7 +57,7 @@ nav .dropdown-menu.dropdown-menu a {
 }
 .hero {
   height: 90vh;
-  background-image: url("/medias/hero.PNG");
+  background-image: url("medias/hero.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -86,7 +86,7 @@ nav .dropdown-menu.dropdown-menu a {
   padding: 0;
 }
 #section-propos .container-fluid .bande {
-  background-image: url("/medias/hero.PNG");
+  background-image: url("medias/hero.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
@@ -134,7 +134,7 @@ nav .dropdown-menu.dropdown-menu a {
   padding: 0;
 }
 #section-projet .container-fluid .bande {
-  background-image: url("/medias/hero.PNG");
+  background-image: url("medias/hero.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
@@ -274,7 +274,7 @@ h3 {
   padding: 0;
 }
 #section-contact .container-fluid .bande {
-  background-image: url("Mon-Portfolio/medias/hero.PNG");
+  background-image: url("medias/hero.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
