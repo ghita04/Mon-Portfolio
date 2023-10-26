@@ -87,8 +87,8 @@ nav {
   }
 
   .card {
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    min-height: 500px;
     background-color: rgb(32, 5, 29, 0.9);
     border-radius: 50%;
 
@@ -326,6 +326,7 @@ h3 {
   }
 }
 #section-contact {
+  font-family: "Victor Mono", monospace;
   .container-fluid {
     padding: 0;
 
@@ -334,11 +335,23 @@ h3 {
       background-repeat: no-repeat;
       background-size: cover;
       height: 25vh;
+      color: white;
 
-      h2 {
-        font-size: 3rem;
-        color: white;
-      }
     }
+
+    h2 {
+      font-size: 3rem;
+      color: white;
+    }
+
+    .link {
+      margin-top: 20px;
+      width: 190px;
+      height: 100px;
+      
+      
+    }
+
+  
   }
 }
