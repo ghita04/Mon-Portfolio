@@ -19,9 +19,9 @@ nav {
   .logo {
     position: absolute;
     left: 15px;
-    top: -5px;
-    height: 5vh;
-    max-width: 7vw;
+    top: -3px;
+    height: 8vh;
+    max-width: 15vw;
   }
 
   li {
@@ -79,10 +79,14 @@ nav {
   justify-content: space-evenly;
   align-items: center;
 
+  p {
+    font-family: "Quicksand", sans-serif;
+  }
+
   .card {
     width: 500px;
     height: 500px;
-    background-color: rgba(185, 152, 220, 0.7);
+    background-color: rgb(32, 5, 29, 0.7);
     border-radius: 50%;
 
     h4 {
@@ -137,7 +141,7 @@ nav {
 }
 
 #section-footer {
-  background-color: rgba(185, 152, 220, 0.7);
+  background-color: rgb(75, 42, 72);
   margin: 0;
   height: 20vh;
 
@@ -149,23 +153,6 @@ nav {
     justify-content: center;
     align-items: center;
     color: white;
-  }
-
-  &::after {
-    content: "";
-    display: block;
-    margin: auto;
-    height: 3px;
-    width: 0;
-    top: 5px;
-    background: transparent;
-    transition: all 0.3s;
-  }
-
-  &:hover::after,
-  &.active-nav::after {
-    width: 100%;
-    background: #a92ac9;
   }
 }
 
