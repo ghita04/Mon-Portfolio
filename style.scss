@@ -160,6 +160,7 @@ nav {
     color: white;
     
   }
+
 }
 
 #section-projet {
@@ -213,6 +214,8 @@ p {
   font-family: "Quicksand", sans-serif;
 }
 
+
+
 h1 {
   text-align: center;
   color: white;
@@ -235,6 +238,16 @@ h3 {
 
   ul {
     font-family: "Quicksand", sans-serif;
+  }
+}
+
+#up{
+
+  .icon{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
   }
 }
 
