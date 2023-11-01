@@ -77,9 +77,13 @@ nav .dropdown-menu.dropdown-menu a {
 .hero .card h4 {
   font-size: 45px;
   color: white;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .hero .card p {
   color: white;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #section-propos .container-fluid {
@@ -100,12 +104,14 @@ nav .dropdown-menu.dropdown-menu a {
 }
 #section-propos .container-fluid .profil p {
   color: white;
+  margin-bottom: 25px;
 }
 #section-propos .container-fluid .competences h2 {
   color: white;
 }
 #section-propos .container-fluid .competences li {
   color: white;
+  margin-bottom: 25px;
 }
 #section-propos .container-fluid p {
   font-family: "Quicksand", sans-serif;
