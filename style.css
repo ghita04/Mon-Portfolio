@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-color: rgb(32, 5, 29);
+  background-color: rgb(0, 0, 0);
   font-family: "Victor Mono", monospace;
   overflow-x: unset;
 }
@@ -35,7 +35,7 @@ nav li a::after {
 }
 nav li a:hover::after, nav li a.active-nav::after {
   width: 100%;
-  background: #a92ac9;
+  background: #5ec2b7;
 }
 nav .dropdown-menu {
   background-color: #000000;
@@ -56,8 +56,8 @@ nav .dropdown-menu.dropdown-menu a {
   }
 }
 .hero {
-  height: 90vh;
-  background-image: url("medias/hero.PNG");
+  height: 80vh;
+  background-image: url(medias/test_hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -71,7 +71,7 @@ nav .dropdown-menu.dropdown-menu a {
 .hero .card {
   max-width: 500px;
   min-height: 500px;
-  background-color: rgba(32, 5, 29, 0.9);
+  background-color: #9dd9d2;
   border-radius: 50%;
 }
 .hero .card h4 {
@@ -81,7 +81,7 @@ nav .dropdown-menu.dropdown-menu a {
   margin-right: 20px;
 }
 .hero .card p {
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -90,14 +90,14 @@ nav .dropdown-menu.dropdown-menu a {
   padding: 0;
 }
 #section-propos .container-fluid .bande {
-  background-image: url("medias/hero.PNG");
+  background-image: url(medias/test_hero_01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
 }
 #section-propos .container-fluid .bande h2 {
   font-size: 3rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 #section-propos .container-fluid .profil h2 {
   color: white;
@@ -113,6 +113,9 @@ nav .dropdown-menu.dropdown-menu a {
   color: white;
   margin-bottom: 25px;
 }
+#section-propos .container-fluid li::marker {
+  color: #5ec2b7;
+}
 #section-propos .container-fluid p {
   font-family: "Quicksand", sans-serif;
 }
@@ -121,7 +124,7 @@ nav .dropdown-menu.dropdown-menu a {
 }
 
 #section-footer {
-  background-color: rgb(75, 42, 72);
+  background-color: #021b26;
   margin: 0;
   height: 20vh;
   font-family: "Quicksand", sans-serif;
@@ -141,17 +144,17 @@ nav .dropdown-menu.dropdown-menu a {
   padding: 0;
 }
 #section-projet .container-fluid .bande {
-  background-image: url("medias/hero.PNG");
+  background-image: url(medias/test_hero_01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
 }
 #section-projet .container-fluid .bande h2 {
   font-size: 3rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 #section-projet .container-fluid .categrories {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #021b26;
   height: 8vh;
   display: flex;
   justify-content: space-around;
@@ -175,8 +178,8 @@ nav .dropdown-menu.dropdown-menu a {
   max-width: 100vw;
 }
 #section-projet .container-fluid a:hover {
-  -webkit-text-decoration: underline #a92ac9;
-          text-decoration: underline #a92ac9;
+  -webkit-text-decoration: underline #5ec2b7;
+          text-decoration: underline #5ec2b7;
 }
 
 p {
@@ -203,6 +206,9 @@ h3 {
 #design-web ul {
   font-family: "Quicksand", sans-serif;
 }
+#design-web li::marker {
+  color: #5ec2b7;
+}
 
 #up .icon {
   position: absolute;
@@ -216,13 +222,13 @@ h3 {
   height: 100%;
 }
 #design-graphique .card {
-  background-color: rgb(32, 5, 29);
+  background-color: black;
 }
 #design-graphique .swiper-button-next {
-  color: #a92ac9;
+  color: black;
 }
 #design-graphique .swiper-button-prev {
-  color: #a92ac9;
+  color: black;
 }
 
 #montage span {
@@ -236,7 +242,7 @@ h3 {
 }
 #montage .swiper-pagination-bullet-active {
   width: 30px;
-  background-color: #a92ac9;
+  background-color: #5ec2b7;
 }
 #montage h1 {
   margin-top: 60px;
@@ -262,6 +268,9 @@ h3 {
   color: white;
   padding-left: 30px;
 }
+#montage li::marker {
+  color: #5ec2b7;
+}
 #montage video {
   width: 100%;
   height: 100%;
@@ -279,10 +288,10 @@ h3 {
 }
 
 #processus .swiper-button-next {
-  color: #a92ac9;
+  color: #5ec2b7;
 }
 #processus .swiper-button-prev {
-  color: #a92ac9;
+  color: #5ec2b7;
 }
 #processus h1 {
   margin-top: -2px;
@@ -336,7 +345,7 @@ h3 {
   padding: 0;
 }
 #section-contact .container-fluid .bande {
-  background-image: url("medias/hero.PNG");
+  background-image: url(medias/test_hero_01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
@@ -344,7 +353,7 @@ h3 {
 }
 #section-contact .container-fluid .titre {
   font-size: 3rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 #section-contact .container-fluid h2 {
   font-size: 1.3rem;
