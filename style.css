@@ -225,10 +225,10 @@ h3 {
   background-color: black;
 }
 #design-graphique .swiper-button-next {
-  color: black;
+  color: #5ec2b7;
 }
 #design-graphique .swiper-button-prev {
-  color: black;
+  color: #5ec2b7;
 }
 
 #montage span {
@@ -280,7 +280,7 @@ h3 {
   display: flex;
   justify-content: center;
   border: none;
-  background-color: rgb(32, 5, 29);
+  background-color: black;
   margin-bottom: 40px;
 }
 #montage .card img {
