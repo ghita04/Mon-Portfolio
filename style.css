@@ -57,7 +57,7 @@ nav .dropdown-menu.dropdown-menu a {
 }
 .hero {
   height: 80vh;
-  background-image: url(medias/test_hero.jpg);
+  background-image: url(medias/hero_index.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -71,12 +71,12 @@ nav .dropdown-menu.dropdown-menu a {
 .hero .card {
   max-width: 500px;
   min-height: 500px;
-  background-color: #9dd9d2;
+  background-color: rgba(157, 217, 210, 0.8274509804);
   border-radius: 50%;
 }
 .hero .card h4 {
   font-size: 45px;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: 20px;
   margin-right: 20px;
 }

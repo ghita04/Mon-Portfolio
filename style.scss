@@ -70,7 +70,7 @@ nav {
 
 .hero {
   height: 80vh;
-  background-image: url(medias/test_hero.jpg);
+  background-image: url(medias/hero_index.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -85,12 +85,12 @@ nav {
   .card {
     max-width: 500px;
     min-height: 500px;
-    background-color: #9dd9d2;
+    background-color: #9dd9d2d3;
     border-radius: 50%;
 
     h4 {
       font-size: 45px;
-      color: white;
+      color: rgb(0, 0, 0);
       margin-left: 20px;
       margin-right: 20px;
     }
